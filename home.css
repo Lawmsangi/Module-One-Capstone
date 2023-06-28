@@ -307,7 +307,6 @@ main {
 /* section-partner */
 .section-partner {
   background-color: var(--black-color);
-  display: none;
 }
 
 .partner-container {
@@ -321,13 +320,13 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #212529;
+  color: var(--font-color);
   padding: 20px;
   line-height: 44px;
 }
 
 .partner-header h2 {
-  color: #525252;
+  color: var(--font-color);
   font-size: 1.8rem;
   font-weight: 700;
 }
@@ -347,8 +346,7 @@ main {
 }
 
 .partner-content img {
-  height: 70px;
-  width: 120px;
+  height: 90px;
   padding: 10px;
   flex-grow: 0;
   margin-right: 10px;
@@ -356,7 +354,7 @@ main {
 
 footer {
   background-color: #fff;
-  display: none;
+  display: block;
 }
 
 .footer-content {
@@ -381,7 +379,7 @@ footer {
   .header-black {
     display: flex;
     justify-content: flex-end;
-    height: 8vh;
+    height: 5vh;
     background-color: #3e3e3e;
     color: #fff;
   }
@@ -402,10 +400,12 @@ footer {
     display: flex;
     gap: 20px;
     margin-right: 15%;
+    align-items: center;
   }
 
   .header-black ul li {
-    margin-top: 8px;
+    margin-top: 5px;
+    align-items: center;
   }
 
   header nav ul li img {
@@ -428,6 +428,13 @@ footer {
     margin-top: 50px;
   }
 
+  .partner-content img {
+    height: 90px;
+    padding: 10px;
+    flex-grow: 0;
+    margin-right: 10px;
+  }
+
   .header-black ul li a {
     text-decoration: none;
     color: #fff;
@@ -436,7 +443,6 @@ footer {
   }
 
   .header-black ul li a img {
-    width: 20px;
     height: 20px;
   }
 
@@ -514,6 +520,8 @@ footer {
     border-bottom: 1px solid #fff;
   }
 
+
+
   /* products */
   .show-more {
     display: none;
@@ -531,9 +539,43 @@ footer {
     margin-bottom: 10px;
   }
 
-  .section-partner {
-    display: block;
+  .partner-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
   }
+
+  .partner-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--font-color);
+    padding: 20px;
+    line-height: 44px;
+  }
+
+  .partner-header h2 {
+    color: var(--font-color);
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .partner-line {
+    border: 1px solid var(--main-color);
+    width: 30px;
+    height: 0;
+    opacity: 0.7;
+  }
+
+  .partner-content {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+
 
   footer {
     display: block;
