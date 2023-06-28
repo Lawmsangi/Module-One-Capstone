@@ -520,8 +520,6 @@ footer {
     border-bottom: 1px solid #fff;
   }
 
-
-
   /* products */
   .show-more {
     display: none;
@@ -574,8 +572,6 @@ footer {
     gap: 20px;
     flex-wrap: wrap;
   }
-
-
 
   footer {
     display: block;
