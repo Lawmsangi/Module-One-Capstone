@@ -48,19 +48,19 @@ const products = [
   },
   {
     image: 'images/4.jpeg',
-    title: 'Bubu Dudu Sleeping Hoodies',
-    price: '&#8377 999',
+    title: 'Bubu Dudu Happy Birthday White Cushion',
+    price: '&#8377 499',
     img: 'images/truck.svg',
   },
   {
     image: 'images/5.jpeg',
-    title: 'Bubu Dudu Sleeping Hoodies',
+    title: 'Happy Anniversary Bubu Dudu Magic Mug',
     price: '&#8377 999',
     img: 'images/truck.svg',
   },
   {
     image: 'images/6.jpeg',
-    title: 'Bubu Dudu Sleeping Hoodies',
+    title: 'Bubu Dudu(Bear Panda) Soft Toys/Plushies/Teddy',
     price: '&#8377 999',
     img: 'images/truck.svg',
   },
