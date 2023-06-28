@@ -524,7 +524,9 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 5% 10%;
+     max-height: fit-content;
   }
+
 
   .product-content {
     display: flex;
