@@ -60,10 +60,10 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder using git command
-$ git clone https://github.com/Lawmsangi/Module1-capstone-project.git
+$ git clone https://github.com/Lawmsangi/Module-One-Capstone.git
 
 Or you can also download this project as Zip here: 
-https://github.com/Lawmsangi/Module1-capstone-project
+https://github.com/Lawmsangi/Module-One-Capstone
 by clicking the green Code button.
 
 Then run the following command on terminal in the root folder the project:
@@ -77,7 +77,7 @@ To run the project just open the index.html file.
 
 Check Out My Portfolio on GitHub Page:
 
-<a href="https://lawmsangi.github.io/Module1-capstone-project/">Click here</a>
+<a href="https://lawmsangi.github.io/Module-One-Capstone/">Click here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

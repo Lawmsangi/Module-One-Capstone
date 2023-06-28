@@ -116,8 +116,8 @@ productSix.innerHTML = `
         Standard shipping in 10 working days
     </div>`;
 
-showMore.innerHTML =   `<span>More</span>
-                        <img src="images/arrow-down.png" alt="arrow-down">`
+showMore.innerHTML = `<span>More</span>
+                        <img src="images/arrow-down.png" alt="arrow-down">`;
 
 productContainer.appendChild(productOne);
 productContainer.appendChild(productTwo);
@@ -127,7 +127,7 @@ productContainer.appendChild(productFive);
 productContainer.appendChild(productSix);
 productCard.appendChild(productContainer);
 
-showMore.addEventListener('click', function(){
-    productContainer.style.maxHeight = 'fit-content';
+showMore.addEventListener('click', () => {
+  productContainer.style.maxHeight = 'fit-content';
 });
 productCard.appendChild(showMore);
