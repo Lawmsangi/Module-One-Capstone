@@ -8,6 +8,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -41,6 +42,13 @@
 - **[Hover_transform]**
 - **[Multi_page]**
 - **[Page viewable using Github Page]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+- [Live Demo Link](https://lawmsangi.github.io/Module-One-Capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
